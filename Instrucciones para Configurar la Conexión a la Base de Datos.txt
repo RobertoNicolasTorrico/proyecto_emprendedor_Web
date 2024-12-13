@@ -1,0 +1,26 @@
+Instrucciones para Configurar la Conexión a la Base de Datos
+
+Para que el sitio web funcione correctamente en un servidor local, es necesario configurar la conexión a la base de datos. Esto se realiza editando el archivo:conexion_bd.php
+
+Ubicación del archivo:
+config/consultas_bd/conexion_bd.php
+
+Pasos a seguir:
+
+1. Abra el archivo conexion_bd.php con un editor de texto.
+
+2. Localice el siguiente bloque de código:
+	$usuario = 'root';
+	$password = '';
+
+3. Actualice los valores según su configuración local:
+
+	$usuario: Reemplace con su usuario de la base de datos
+	$password: Ingrese la contraseña de su base de datos
+
+4. Guarde los cambios realizados en el archivo.
+
+
+
+
+
